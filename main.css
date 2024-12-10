@@ -164,7 +164,7 @@ header #reg {
     align-items: center;
     justify-content: space-between;
     background-color: #F3FBF8;
-    background-image: url(images/leaves.png);
+    background-image: url(./images/leaves.png);
     background-size: 612px 408px;
     background-position: top -67px left;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ header #reg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("images/vegetables.png");
+    background-image: url("./images/vegetables.png");
     background-repeat: no-repeat;
     background-size: auto 420px;
     background-position: bottom -38px left;
@@ -263,7 +263,7 @@ header #reg {
     padding: 140px 100px;
     display: flex;
     flex-direction: column;
-    background-image: url("images/back-best.png");
+    background-image: url("./images/back-best.png");
     background-position: center right;
     background-repeat: no-repeat;
 }
@@ -312,7 +312,7 @@ header #reg {
     height: min-content;
     padding: 120px 130px 300px 750px;
     background-color: #09a66c1e;
-    background-image: url("images/spcitms.png");
+    background-image: url("./images/spcitms.png");
     background-repeat: no-repeat;
     background-position: top 100px left 100px;
 }
@@ -354,7 +354,7 @@ header #reg {
     align-items: flex-start;
     justify-content: center;
     padding: 100px 200px 100px 570px;
-    background-image: url("../images/phone.png");
+    background-image: url("./images/phone.png");
     background-repeat: no-repeat;
     background-size: auto 420px;
     background-position: top 100px left 150px;
