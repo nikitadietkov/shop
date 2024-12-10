@@ -431,32 +431,32 @@ footer ul li {
 
 @font-face {
     font-family: "GeistLight";
-    src: url(/font/BauhausC_Light_Regular.ttf);
+    src: url(./font/BauhausC_Light_Regular.ttf);
 }
 
 @font-face {
     font-family: "GeistMono";
-    src: url(/font/BauhausC_Medium_Bold.ttf);
+    src: url(./font/BauhausC_Medium_Bold.ttf);
 }
 
 @font-face {
     font-family: "NimbusMonoBold";
-    src: url(/font/Nimbus_Mono_Bold.otf);
+    src: url(./font/Nimbus_Mono_Bold.otf);
 }
 
 @font-face {
     font-family: "uafMemory";
-    src: url(/font/UAFMemory-NarrowBoldSmallCaps.ttf);
+    src: url(./font/UAFMemory-NarrowBoldSmallCaps.ttf);
 }
 
 @font-face {
     font-family: "Courier";
-    src: url(/font/CourierMCY.ttf);
+    src: url(./font/CourierMCY.ttf);
 }
 
 @font-face {
     font-family: "CourierBold";
-    src: url(/font/CourierMCY_Bold.ttf);
+    src: url(./font/CourierMCY_Bold.ttf);
 }
 
 @keyframes spin {
