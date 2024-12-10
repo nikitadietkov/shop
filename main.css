@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#register-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 25%;
+    width: 50%;
+    height: 40%;
+    padding: 1%;
+    z-index: 100;
+    position: fixed;
+    opacity: 0;
+    border-radius: 15px;
+    color: whitesmoke;
+    background: #09A66D;
+    font-family: "GeistMono";
+    transition: .3s ease-in-out;
+    justify-content: space-between;
+    box-shadow: 0 0 20vw 25vw rgb(0, 0, 0, 0.3);
+}
+
+#register-block h2 {
+    margin-left: 2%;
+}
+
+#inpBtn {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#inp {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#inp input {
+    width: 140%;
+    padding: 3% 4%;
+    margin: 0 0 10% 0;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: 100%;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 120px 5px rgb(255, 255, 255, 0.2);
+
+}
+
+#inp input:focus-visible {
+    border: none;
+}
+
+
+#inpBtn button {
+    border: none;
+    color: white;
+    padding: 2% 3%;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: 100;
+    border-radius: 10px;
+    font-family: "GeistLight";
+    background-color: #0000003a;
+    box-shadow: 0 0 100px 5px rgb(255, 255, 255, 0.2);
+    transform: translateY(75%);
+    transition: .6s ease-in-out;
+}
+
+#inpBtn button:hover {
+    background-color: #0000003f;
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255, 0.2);
+
+}
+
+#inpBtn #regCancel {
+    background-color: #ffffff3a;
+    box-shadow: 0 0 25px 0 rgba(255, 0, 0, 0.1);
+}
+
+#inpBtn #regCancel:hover {
+    box-shadow: 0 0 20px 0 rgba(255, 99, 99, 0.3);
+
+}
+
+
+
+header {
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    animation-timing-function: cubic-bezier(0.11, -0.66, 0.92, 1.63);
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header #main {
+    width: 30%;
+    justify-content: space-between;
+    font-family: "GeistMono"
+}
+
+header #reg {
+    width: 30%;
+    justify-content: space-between;
+}
+
+#reg li {
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+}
+
+#search {
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #F3FBF8;
+}
+
+#registr {
+    width: 160px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .7s ease-in-out;
+    background-color: #09A66D;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.0);
+
+}
+
+#registr:hover {
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+#veg {
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3FBF8;
+    background-image: url(images/leaves.png);
+    background-size: 612px 408px;
+    background-position: top -67px left;
+    background-repeat: no-repeat;
+}
+
+#veg h1 {
+    font-size: 70px;
+    font-family: "GeistMono";
+}
+
+#veg p {
+    font-size: 18px;
+    max-width: 630px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#reviews {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/vegetables.png");
+    background-repeat: no-repeat;
+    background-size: auto 420px;
+    background-position: bottom -38px left;
+}
+
+#reviews #ordernow {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 0.3% 1%;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+    background-color: #09a66c08;
+    box-shadow: 0 0 20px 15px rgb(0, 0, 0, 0.03);
+}
+
+#reviews #ordernow:hover {
+    box-shadow: 0 0 20px 20px rgb(0, 0, 0, 0.04);
+}
+
+#reviews ul {
+    list-style: none;
+    margin-right: 100px;
+    align-self: flex-end;
+    transform: translateY(-15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#reviews li {
+    padding: 17px 33px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: default;
+    font-family: sans-serif;
+    background-color: white;
+    transition: .4s ease-in-out;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.02);
+}
+
+#reviews li:hover {
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#reviews li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+#reviews p {
+    font-size: 1vw;
+}
+
+#reviews .num {
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+#weBest {
+    height: 80vh;
+    padding: 140px 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/back-best.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+#weBest h1 {
+    font-size: 3vw;
+    font-family: "GeistMono";
+    margin-bottom: 20px;
+}
+
+#weBest p {
+    width: 50vw;
+    font-family: "GeistMono";
+}
+
+#weBest ul {
+    list-style: none;
+}
+
+#weBest li {
+    height: 80px;
+    padding: 40px 60px 0 40px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+}
+
+#weBest li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#weBest li p {
+    font-size: .8vw;
+    max-width: 300px;
+}
+
+#weBest h4 {
+    margin-bottom: 8px;
+}
+
+#itms {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    padding: 120px 130px 300px 750px;
+    background-color: #09a66c1e;
+    background-image: url("images/spcitms.png");
+    background-repeat: no-repeat;
+    background-position: top 100px left 100px;
+}
+
+#itms h1 {
+    font-size: 3.7vw;
+    margin-bottom: 20px;
+    font-family: "GeistMono";
+
+}
+
+#itms #p {
+    font-family: "GeistMono";
+    margin-bottom: 50px;
+}
+
+#itms #leaves {
+    position: absolute;
+    transform: translate(200px, 350px);
+
+}
+
+#itms #ordernow {
+    width: 40%;
+    padding: 1% 2%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: #09a66c08;
+    box-shadow: 0 0 20px 15px rgb(0, 0, 0, 0.03);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 200px 100px 570px;
+    background-image: url("../images/phone.png");
+    background-repeat: no-repeat;
+    background-size: auto 420px;
+    background-position: top 100px left 150px;
+}
+
+#app button {
+    border: .5px solid #b8ffe6;
+    color: #333;
+    margin-bottom: 16px;
+    padding: 1% 2%;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #e8fff7;
+}
+
+#app h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+    font-family: "GeistMono";
+}
+
+#app p {
+    width: 80%;
+    color: #555;
+    margin-bottom: 70px;
+    font-family: "GeistMono";
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    height: 300px;
+    padding: 65px 100px;
+    background-color: #FCFEFD;
+}
+
+footer #company {
+    width: 30%;
+    font-family: "GeistMono";
+    font-size: 18px;
+}
+
+footer #company p {
+    margin-top: 30px;
+}
+
+footer #ul,
+li,
+h3 {
+    color: #555;
+    font-family: "GeistMono";
+}
+
+footer #ul {
+    align-self: center;
+}
+
+footer h3 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+
+@font-face {
+    font-family: "GeistLight";
+    src: url(/font/BauhausC_Light_Regular.ttf);
+}
+
+@font-face {
+    font-family: "GeistMono";
+    src: url(/font/BauhausC_Medium_Bold.ttf);
+}
+
+@font-face {
+    font-family: "NimbusMonoBold";
+    src: url(/font/Nimbus_Mono_Bold.otf);
+}
+
+@font-face {
+    font-family: "uafMemory";
+    src: url(/font/UAFMemory-NarrowBoldSmallCaps.ttf);
+}
+
+@font-face {
+    font-family: "Courier";
+    src: url(/font/CourierMCY.ttf);
+}
+
+@font-face {
+    font-family: "CourierBold";
+    src: url(/font/CourierMCY_Bold.ttf);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(320deg);
+    }
+}
